@@ -17,11 +17,11 @@ ipython = "^8.20.0"
 pytest = "^7.4.4"
 pytest-cov = "^4.1.0"
 
-
 [tool.poetry-dynamic-versioning]
 enable = true
-strict = false
+strict = true
 latest-tag = true
+
 [build-system]
 requires = ["poetry-core", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
 build-backend = "poetry_dynamic_versioning.backend"

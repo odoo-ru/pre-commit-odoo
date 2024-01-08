@@ -12,15 +12,15 @@ pip install pre-commit-odoo
 
 Development
 -----------
-We need installed `pyenv` and `pipenv`.
+We need installed `poetry`.
 ```console
 git clone git@github.com:odoo-ru/pre-commit-odoo.git
 
 cd pre-commit-odoo
-pipenv install --dev
+poetry install --no-root
 ```
 
 Run tests:
 ```console
-pipenv run fulltest
+poetry run pytest
 ```

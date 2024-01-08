@@ -1,0 +1,11 @@
+.*
+!.editorconfig
+!.gitignore
+!/.coveragerc
+!/.flake8
+!/.pre-commit-config.yaml
+!/.pylintrc
+
+# Python
+__pycache__/
+/dist/
